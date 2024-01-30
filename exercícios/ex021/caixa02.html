@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 0, 0, 0.322);
+        }
+        h1{
+            background-color: rgb(185, 185, 71);
+            text-align: center;
+            width: 200px;
+            margin: auto;
+        }
+        nav{
+            text-align: center;
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+
+        }
+        nav > a:hover{
+            color: rgb(113, 170, 66);
+        }
+        #principal{
+            background-color: rgb(116, 150, 65);
+            padding: 2px 5px 2px 5px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+        }
+        h2{
+            text-align: center;
+            background-color: lightgreen;
+        }
+        article > p{
+            text-align: justify;
+        }
+        aside{
+            background-color: darkgreen;
+            color: white;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="principal">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, esse officia vel neque aut quis laboriosam nam excepturi distinctio delectus iure ea explicabo quaerat, fugit dolorem error possimus at natus?</p>
+        </section>
+        <section>
+            <article>
+                <h2>
+                    sobre hoje
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, nesciunt. Dignissimos recusandae rem, magni in ad quas laudantium ipsa velit, beatae eius deserunt provident illo obcaecati possimus earum nisi cum.</p>
+                <aside>Escrito por Maria da Silva</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por mim
+    </footer>
+    <div id="bola">
+    </div>
+</body>
+</html>
