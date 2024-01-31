@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shantell+Sans:wght@300&display=swap');
+
+:root{
+    --fonte1: Arial, Verdana;
+    --fonte2: 'Shantell Sans', cursive;
+    --fonte3: 'Patrick Hand', cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: gray;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-family: var(--fonte3);
+}
+header > p {
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+}
+section > p{
+    padding-bottom: 1em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    display: inline-block;
+    width: 100vw;
+    padding: 8px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.575);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.815);
+    background-attachment: fixed;
+}
+section.imagem > p {
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+section#img001{
+    background-image:url('../imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+
+}
+section#img002{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
