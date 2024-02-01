@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            padding: 6px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .numero{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <caption>
+            Lista de países por população
+        </caption>
+        <thead>
+            <tr>
+                <th scope="row">País</th>
+                <th scope="row" style="width: 150px;">População estimada</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Índia</td>
+                <td class="numero">1 429 921 746</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td class="numero">1 426 391 281</td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td class="numero">339 987 103</td>
+            </tr>
+            <tr>
+                <td>Indonésia</td>
+                <td class="numero">277 184 719</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="numero"><strong>3 196 300 130</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
