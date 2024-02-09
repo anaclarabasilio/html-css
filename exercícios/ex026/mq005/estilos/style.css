@@ -26,8 +26,8 @@ span#burguer {
 }
 span#burguer:hover {
     background-color: white;
-    color: black;
-}
+    color: black;}
+
 menu {
     display: none;
 }
